@@ -1,0 +1,869 @@
+[
+  {
+    "id": "247_game_club",
+    "name": "247 Game Club",
+    "lat": 22.373904309550817,
+    "lng": 114.10989224223638,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "荃灣荃運工業中心一期23樓K1室",
+    "hours": "https://www.facebook.com/people/247-Game-Club/61568195263569/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵荃灣西站 A1 出口，步行 10 分鐘",
+      "bus": "荃灣荃運工業中心站（巴士 39M、30）",
+      "walk": "從荃灣西站沿大涌道直行約 600 米"
+    }
+  },
+  {
+    "id": "ms_tcg",
+    "name": "MS TCG",
+    "lat": 22.358130753183726,
+    "lng": 114.13092516594814,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "葵芳金龍工業中心第三座17樓J室",
+    "hours": "https://www.mstcgstore.com/?srsltid=AfmBOopXa5y0b3o9SIA_JEZfy9p0zdNvTrvA9nhOYm_0Y9yXhwwXydDl",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵葵芳站 D 出口，步行 5 分鐘",
+      "bus": "葵芳站（巴士 30、47M）",
+      "walk": "從葵芳站沿葵富路直行約 300 米"
+    }
+  },
+  {
+    "id": "cardgame_station",
+    "name": "CardGameStation",
+    "lat": 22.339316109335503,
+    "lng": 114.1479467025464,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "荔枝角青山道658號福至工業大廈2樓212室",
+    "hours": "https://cardgamestation.boutir.com/?lang=zh-Hant&srsltid=AfmBOooEUGK5waFuNWiTqllAnxB5tH6cZ2eDsCeOWSbzbzHtgMG6gaZH",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵荔枝角站 A 出口，步行 5 分鐘",
+      "bus": "荔枝角道站（巴士 2A、6D）",
+      "walk": "從荔枝角站沿青山道直行約 300 米"
+    }
+  },
+  {
+    "id": "battleground",
+    "name": "Battleground",
+    "lat": 22.337436632447826,
+    "lng": 114.14812213567077,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "荔枝角長順街11號長城工廠大廈5樓A09室",
+    "hours": "https://bgtcg.com/products?srsltid=AfmBOoq83U2EgEKQ2kr35ksmaOtTOH4YjfdCAcKZiuEJ2Aktp0UnOaZP",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵荔枝角站 A 出口，步行 6 分鐘",
+      "bus": "長順街站（巴士 2A、6D）",
+      "walk": "從荔枝角站沿長順街直行約 400 米"
+    }
+  },
+  {
+    "id": "card_hunter",
+    "name": "Card Hunter",
+    "lat": 22.44251953589849,
+    "lng": 114.03353217463803,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "元朗鳳琴街18號玉龍樓1樓13號",
+    "hours": "https://www.facebook.com/p/Card-Hunter-100068446880591/?locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵元朗站 F 出口，步行 8 分鐘",
+      "bus": "元朗鳳琴街站（巴士 68M、76K）",
+      "walk": "從元朗站沿鳳琴街直行約 500 米"
+    }
+  },
+  {
+    "id": "sunrise_nation",
+    "name": "日出之國",
+    "lat": 22.337361746924334,
+    "lng": 114.15854727032846,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "長沙灣東京街31號恆邦商業大廈1206室",
+    "hours": "https://www.facebook.com/sunrisekingdom.ptcg/?locale=zh_HK",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵長沙灣站 A2 出口，步行 5 分鐘",
+      "bus": "東京街站（巴士 2A、6D）",
+      "walk": "從長沙灣站沿東京街直行約 300 米"
+    }
+  },
+  {
+    "id": "combo",
+    "name": "COMBO",
+    "lat": 22.336392953559677,
+    "lng": 114.16232978305905,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "長沙灣青山道124號 Spark City 8樓全層",
+    "hours": "https://www.combotcg.com/",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵長沙灣站 A2 出口，步行 6 分鐘",
+      "bus": "青山道站（巴士 2A、6D）",
+      "walk": "從長沙灣站沿青山道直行約 400 米"
+    }
+  },
+  {
+    "id": "no9_institute",
+    "name": "9號研究所",
+    "lat": 22.335275402801134,
+    "lng": 114.16073374919938,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "青山道155-169號天悅廣場1樓126a號",
+    "hours": "https://www.facebook.com/people/studio_nine/100063648376863/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵長沙灣站 A2 出口，步行 5 分鐘",
+      "bus": "天悅廣場站（巴士 2A、6D）",
+      "walk": "從長沙灣站沿青山道直行約 300 米"
+    }
+  },
+  {
+    "id": "arena",
+    "name": "ARENA",
+    "lat": 22.33622225139627,
+    "lng": 114.16052254703973,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "長沙灣元州街162-188號天悅廣場2樓213號舖",
+    "hours": "https://www.facebook.com/Arena0801/",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵長沙灣站 A2 出口，步行 5 分鐘",
+      "bus": "天悅廣場站（巴士 2A、6D）",
+      "walk": "從長沙灣站沿元州街直行約 300 米"
+    }
+  },
+  {
+    "id": "aurora_tcg",
+    "name": "Aurora TCG",
+    "lat": 22.335825296932935,
+    "lng": 114.16005300895873,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "長沙灣元州街162-188號天悅廣場112號舖",
+    "hours": "https://www.facebook.com/profile.php?id=61573846716480&locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵長沙灣站 A2 出口，步行 5 分鐘",
+      "bus": "天悅廣場站（巴士 2A、6D）",
+      "walk": "從長沙灣站沿元州街直行約 300 米"
+    }
+  },
+  {
+    "id": "card_collection",
+    "name": "Card Collection",
+    "lat": 22.335148361092532,
+    "lng": 114.16008186217512,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "長沙灣元州街162-188號天悅廣場176號舖",
+    "hours": "https://www.cardcollectionhk.com/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵長沙灣站 A2 出口，步行 5 分鐘",
+      "bus": "天悅廣場站（巴士 2A、6D）",
+      "walk": "從長沙灣站沿元州街直行約 300 米"
+    }
+  },
+  {
+    "id": "card_cave",
+    "name": "Card Cave",
+    "lat": 22.335145634168594,
+    "lng": 114.15997573058142,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "長沙灣天悅廣場1樓159B",
+    "hours": "https://www.facebook.com/CardCave159/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵長沙灣站 A2 出口，步行 5 分鐘",
+      "bus": "天悅廣場站（巴士 2A、6D）",
+      "walk": "從長沙灣站沿元州街直行約 300 米"
+    }
+  },
+  {
+    "id": "outplay_tcg",
+    "name": "OutPlay Tcg",
+    "lat": 22.335218236032468,
+    "lng": 114.16015249319145,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "長沙灣天悅廣場131號店",
+    "hours": "https://www.facebook.com/OutplayTCG/?locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵長沙灣站 A2 出口，步行 5 分鐘",
+      "bus": "天悅廣場站（巴士 2A、6D）",
+      "walk": "從長沙灣站沿元州街直行約 300 米"
+    }
+  },
+  {
+    "id": "rainbow_island",
+    "name": "彩虹島",
+    "lat": 22.330892519871117,
+    "lng": 114.15979595643437,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "深水埗西九龍中心7樓7090AB舖",
+    "hours": "https://www.facebook.com/p/%E5%BD%A9%E8%99%B9%E5%B3%B6-Rainbow-Town-100063804010595/?locale=zh_HK",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵深水埗站 C1 出口，步行 3 分鐘",
+      "bus": "西九龍中心站（巴士 2E、6C）",
+      "walk": "從深水埗站沿荔枝角道直行約 200 米"
+    }
+  },
+  {
+    "id": "league_castle",
+    "name": "League Castle",
+    "lat": 22.32199566598422,
+    "lng": 114.16640269361135,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "旺角廣東道1125-1127號廣建中心6樓",
+    "hours": "https://www.facebook.com/LeagueCastleHK/?locale=zh_HK",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵旺角站 E2 出口，步行 5 分鐘",
+      "bus": "旺角廣東道站（巴士 1A、6）",
+      "walk": "從旺角站沿廣東道直行約 300 米"
+    }
+  },
+  {
+    "id": "starlight_city",
+    "name": "星光之都",
+    "lat": 22.399187921585906,
+    "lng": 113.9730349834849,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "屯門震寰路9號好收成工業大廈7樓14室",
+    "hours": "https://www.facebook.com/SCTCGS/?locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵屯門站 C 出口，步行 10 分鐘",
+      "bus": "震寰路站（巴士 60M、66）",
+      "walk": "從屯門站沿震寰路直行約 600 米"
+    }
+  },
+  {
+    "id": "nt_game",
+    "name": "N.T. Game (Party Home)",
+    "lat": 22.322627439984682,
+    "lng": 114.16593266592875,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "旺角塘尾道66-68號福強工業大廈B座4樓403室",
+    "hours": "HKPartyHome",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵旺角站 A2 出口，步行 6 分鐘",
+      "bus": "塘尾道站（巴士 3C、12A）",
+      "walk": "從旺角站沿塘尾道直行約 400 米"
+    }
+  },
+  {
+    "id": "sbt",
+    "name": "SBT",
+    "lat": 22.395869452992823,
+    "lng": 113.97137362177814,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "屯門德榮工業大廈3樓C2室",
+    "hours": "https://www.facebook.com/p/SBT-100063693656877/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵屯門站 C 出口，步行 12 分鐘",
+      "bus": "德榮工業大廈站（巴士 60M、66）",
+      "walk": "從屯門站沿震寰路直行約 800 米"
+    }
+  },
+  {
+    "id": "players_club",
+    "name": "Players' Club",
+    "lat": 22.324518949740394,
+    "lng": 114.16824993963927,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "太子彌敦道749A愛都婚紗中心 8樓",
+    "hours": "https://www.playersclubhk.com/",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵太子站 B2 出口，步行 3 分鐘",
+      "bus": "太子站（巴士 1、1A）",
+      "walk": "從太子站沿彌敦道直行約 200 米"
+    }
+  },
+  {
+    "id": "big_small_studio",
+    "name": "大細路工作室",
+    "lat": 22.39699787362316,
+    "lng": 113.96832545551622,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "屯門建榮街33號建榮工業大廈11樓1104室",
+    "hours": "https://kidultws.com/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵屯門站 C 出口，步行 10 分鐘",
+      "bus": "建榮街站（巴士 60M、66）",
+      "walk": "從屯門站沿建榮街直行約 600 米"
+    }
+  },
+  {
+    "id": "have_card",
+    "name": "樓上咭店 Have Card",
+    "lat": 22.321581671395492,
+    "lng": 114.17107519361136,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "旺角道97-99號華懋王子大廈2樓J室",
+    "hours": "https://www.facebook.com/p/%E6%A8%93%E4%B8%8A%E5%92%AD%E5%BA%97-Have-Card-61556079932739/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵旺角站 E2 出口，步行 4 分鐘",
+      "bus": "旺角道站（巴士 1A、6）",
+      "walk": "從旺角站沿旺角道直行約 250 米"
+    }
+  },
+  {
+    "id": "mad_max_toys",
+    "name": "MAD MAX TOYS",
+    "lat": 22.32385973468189,
+    "lng": 114.17217201332103,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "旺角太子道西193號MOKO 新世紀廣場3樓310-311號舖",
+    "hours": "https://madmaxtoys.store/?srsltid=AfmBOoo0Vw6Wcjs9nSJCHs6tPM3lA2xbkCMFKpvbd2AS1Ln4iKkUKzMb",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵旺角東站 B 出口，步行 3 分鐘",
+      "bus": "MOKO站（巴士 9、203E）",
+      "walk": "從旺角東站沿太子道西直行約 200 米"
+    }
+  },
+  {
+    "id": "hobbyx",
+    "name": "HobbyX",
+    "lat": 22.317492499801173,
+    "lng": 114.17009867826737,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "旺角彌敦道608號總統商業大廈20樓02室",
+    "hours": "https://hobbyxstore.com/?srsltid=AfmBOorNAGkdoEGw8XfcUKWlCM8vsR4B6JNjGJWl4imcjoctGFQgnZc1",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵旺角站 E2 出口，步行 4 分鐘",
+      "bus": "彌敦道站（巴士 1A、6）",
+      "walk": "從旺角站沿彌敦道直行約 250 米"
+    }
+  },
+  {
+    "id": "basicland",
+    "name": "Basicland",
+    "lat": 22.31666964040201,
+    "lng": 114.17039784083522,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "旺角彌敦道608號總統商業中心15樓1506室",
+    "hours": "https://www.facebook.com/Basicland20/?locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵旺角站 E2 出口，步行 4 分鐘",
+      "bus": "彌敦道站（巴士 1A、6）",
+      "walk": "從旺角站沿彌敦道直行約 250 米"
+    }
+  },
+  {
+    "id": "mox_saga",
+    "name": "Mox Saga",
+    "lat": 22.307825555407184,
+    "lng": 114.16758182429098,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "佐敦偉晴街44～52街聯美中心13樓A室",
+    "hours": "https://www.facebook.com/MTGSAGA/?locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵佐敦站 A 出口，步行 3 分鐘",
+      "bus": "偉晴街站（巴士 2E、14）",
+      "walk": "從佐敦站沿偉晴街直行約 200 米"
+    }
+  },
+  {
+    "id": "nsew_k11",
+    "name": "nsew - 任天堂正規商品販賣店-尖沙咀 K11 MUSEA 分店",
+    "lat": 22.295391433301806,
+    "lng": 114.17392489360181,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "尖沙咀梳士巴利道18號K11 MUSEA B2 層 B211 號舖",
+    "hours": "https://nsewstore.com/?lang=zh-Hant&srsltid=AfmBOoomZnhKPX8ufXGqxIsDvkATXuLl_NbysXYCPrFBdiX2e3p2_-87",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵尖沙咀站 E 出口，步行 5 分鐘",
+      "bus": "K11 MUSEA站（巴士 5、8）",
+      "walk": "從尖沙咀站沿梳士巴利道直行約 300 米"
+    }
+  },
+  {
+    "id": "brave_soul",
+    "name": "闘卡魂 Brave Soul",
+    "lat": 22.33914091117928,
+    "lng": 114.1995961521923,
+    "beginnerFriendly": "超有錢就正",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "新蒲崗勤達中心12樓1室",
+    "hours": "https://www.bravesoulcard.com/?srsltid=AfmBOoo-uX8mAoK0LTd0xVaR9gLlAAPyVs9zZRWP3MRW3eJaIRVML_xP",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵鑽石山站 C2 出口，步行 8 分鐘",
+      "bus": "新蒲崗站（巴士 29M、74A）",
+      "walk": "從鑽石山站沿大有街直行約 500 米"
+    }
+  },
+  {
+    "id": "play_card_chill",
+    "name": "PLAY CARD CHILL",
+    "lat": 22.44789600266149,
+    "lng": 114.1662640243413,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "大埔鄉事會街15號 大日子商場 3樓317 318號舖",
+    "hours": "https://playcardchill.com/",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵大埔墟站 B 出口，步行 5 分鐘",
+      "bus": "大日子商場站（巴士 72、74A）",
+      "walk": "從大埔墟站沿鄉事會街直行約 300 米"
+    }
+  },
+  {
+    "id": "card_wing",
+    "name": "卡羽",
+    "lat": 22.33869866975399,
+    "lng": 114.19872662288185,
+    "beginnerFriendly": "一般",
+    "toilet": "超正",
+    "region": "九龍",
+    "address": "新蒲崗大有街14號萬星工業大廈6樓606室",
+    "hours": "https://www.facebook.com/people/%E5%8D%A1%E7%BE%BD/61551909307197/",
+    "facilities": "練deck,新手友善場,打店賽打到自閉機率相對較低",
+    "directions": {
+      "subway": "港鐵鑽石山站 C2 出口，步行 7 分鐘",
+      "bus": "大有街站（巴士 29M、74A）",
+      "walk": "從鑽石山站沿大有街直行約 400 米"
+    }
+  },
+  {
+    "id": "carder_toysnplace",
+    "name": "Carder Toysnplace",
+    "lat": 22.338996539440277,
+    "lng": 114.19880973964443,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "新蒲崗大有街23號寶城工業大廈2樓C室",
+    "hours": "https://cardertoysnplace.store/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵鑽石山站 C2 出口，步行 7 分鐘",
+      "bus": "大有街站（巴士 29M、74A）",
+      "walk": "從鑽石山站沿大有街直行約 400 米"
+    }
+  },
+  {
+    "id": "chief_tribe",
+    "name": "酋長部落",
+    "lat": 22.33647125785557,
+    "lng": 114.19846523111937,
+    "beginnerFriendly": "未體驗",
+    "toilet": "超正",
+    "region": "九龍",
+    "address": "新蒲崗七寶街3號振發工廠大廈3樓D-1室",
+    "hours": "https://www.facebook.com/jtribetcg/?locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵鑽石山站 C2 出口，步行 8 分鐘",
+      "bus": "七寶街站（巴士 29M、74A）",
+      "walk": "從鑽石山站沿七寶街直行約 500 米"
+    }
+  },
+  {
+    "id": "kez_tcg",
+    "name": "KEZ TCG Shop",
+    "lat": 22.31078428089377,
+    "lng": 114.18868428385449,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "紅磡鶴園街2G號恆豐工業大廈1期6樓F1-08室",
+    "hours": "https://www.facebook.com/kez.tcg.shop/?locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵何文田站 B2 出口，步行 10 分鐘",
+      "bus": "鶴園街站（巴士 5C、11K）",
+      "walk": "從何文田站沿鶴園街直行約 600 米"
+    }
+  },
+  {
+    "id": "this_card",
+    "name": "This CARD",
+    "lat": 22.44851357142449,
+    "lng": 114.1662354809115,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "大埔懷仁街47號泰和樓閣樓",
+    "hours": "https://www.facebook.com/p/ThisCard-100063775640598/?locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵大埔墟站 B 出口，步行 6 分鐘",
+      "bus": "懷仁街站（巴士 72、74A）",
+      "walk": "從大埔墟站沿懷仁街直行約 400 米"
+    }
+  },
+  {
+    "id": "acard_tcg",
+    "name": "Acard Tcg",
+    "lat": 22.33837181096789,
+    "lng": 114.20003242559626,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "香港新蒲崗五芳街10號新寶中心19樓06室",
+    "hours": "https://www.acardtcg.com/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵鑽石山站 C2 出口，步行 8 分鐘",
+      "bus": "五芳街站（巴士 29M、74A）",
+      "walk": "從鑽石山站沿五芳街直行約 500 米"
+    }
+  },
+  {
+    "id": "electric_house",
+    "name": "電電屋",
+    "lat": 22.30944949139026,
+    "lng": 114.1886025416193,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "凱旋工商中心第一期民裕街41號13樓F2室",
+    "hours": "https://dendenhouse.com/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "何文田 A1出口沿斜路到底家維邨斜對，馬會隔離",
+      "bus": "佛光街／鶴園街，轉彎馬會隔離",
+      "walk": "黃埔 A出口 出背對馬路轉右上斜，到天橋轉左落樓梯"
+    }
+  },
+  {
+    "id": "card_lab",
+    "name": "Card Lab 卡研社",
+    "lat": 22.309076984211625,
+    "lng": 114.18827657372822,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "紅磡民裕街30號興業工商大廈4樓B1室",
+    "hours": "https://www.facebook.com/cardlabstore/?locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵何文田站 B2 出口，步行 8 分鐘",
+      "bus": "民裕街站（巴士 5C、11K）",
+      "walk": "從何文田站沿民裕街直行約 500 米"
+    }
+  },
+  {
+    "id": "see_card_play",
+    "name": "見卡打牌",
+    "lat": 22.448770821024873,
+    "lng": 114.1674064978946,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "大埔廣福道85號後鋪",
+    "hours": "https://www.facebook.com/p/%E8%A6%8B%E5%8D%A1%E6%89%93%E7%89%8C-100072169932001/?locale=zh_HK",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵大埔墟站 B 出口，步行 5 分鐘",
+      "bus": "廣福道站（巴士 72、74A）",
+      "walk": "從大埔墟站沿廣福道直行約 300 米"
+    }
+  },
+  {
+    "id": "pure_white_town",
+    "name": "純白鎮",
+    "lat": 22.391548370129055,
+    "lng": 114.20745055047027,
+    "beginnerFriendly": "超正",
+    "toilet": "超正",
+    "region": "新界",
+    "address": "沙田石門安平街新貿中心B座2212室",
+    "hours": "https://www.facebook.com/p/%E7%B4%94%E7%99%BD%E9%8E%AE-100069609068957/",
+    "facilities": "有牌組診療室and新手教學日(純新手+社恐相對更推介)Card day 就算輸曬都有5包卡1 prmo 1入場",
+    "directions": {
+      "subway": "港鐵石門站 A 出口，步行 5 分鐘",
+      "bus": "安平街站（巴士 83K、89）",
+      "walk": "從石門站沿安平街直行約 300 米"
+    }
+  },
+  {
+    "id": "card_room",
+    "name": "卡部屋",
+    "lat": 22.449602196940702,
+    "lng": 114.16645646101551,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "新界",
+    "address": "大埔太平工業中心一座15樓D2室",
+    "hours": "https://www.cardoya.com/products",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵大埔墟站 B 出口，步行 8 分鐘",
+      "bus": "太平工業中心站（巴士 72、74A）",
+      "walk": "從大埔墟站沿安慈路直行約 500 米"
+    }
+  },
+  {
+    "id": "battlefield",
+    "name": "Battlefield 卡牌遊戲及玩具專門店",
+    "lat": 22.249840189607387,
+    "lng": 114.15267522480328,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "香港島",
+    "address": "香港仔富嘉工業大廈6樓607室",
+    "hours": "https://battlefieldhk.com/",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵香港仔站 A 出口，步行 8 分鐘",
+      "bus": "富嘉工業大廈站（巴士 71、76）",
+      "walk": "從香港仔站沿香港仔大道直行約 500 米"
+    }
+  },
+  {
+    "id": "otzet_amigo",
+    "name": "Oztet Amigo TCG & Boardgame Centre",
+    "lat": 22.291670699612798,
+    "lng": 114.1966886122071,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "香港島",
+    "address": "香港北角北角道10號NPAC 12樓03-04室",
+    "hours": "https://oztetamigo.com/?srsltid=AfmBOoo15HPwkiFPFhMfz4ymH-4qm7Cxbl19IEL_VH45JMn8_4aC8smz",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵北角站 A1 出口，步行 5 分鐘",
+      "bus": "北角道站（巴士 8、10）",
+      "walk": "從北角站沿北角道直行約 300 米"
+    }
+  },
+  {
+    "id": "dimension_boardgame",
+    "name": "異次元桌遊社",
+    "lat": 22.285530005109813,
+    "lng": 114.1923366157742,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "香港島",
+    "address": "天后清風街6-8號凱豐商業大廈2樓B",
+    "hours": "https://www.facebook.com/differentdimension.tcg/?locale=zh_HK",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵天后站 A2 出口，步行 3 分鐘",
+      "bus": "清風街站（巴士 8、10）",
+      "walk": "從天后站沿清風街直行約 200 米"
+    }
+  },
+  {
+    "id": "card_buddies",
+    "name": "Card Buddies",
+    "lat": 22.29229457455386,
+    "lng": 114.1998222964698,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "香港島",
+    "address": "北角渣華道108號商業中心16樓01室",
+    "hours": "https://www.facebook.com/p/Card-Buddies-100063722751461/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵北角站 A1 出口，步行 5 分鐘",
+      "bus": "渣華道站（巴士 8、10）",
+      "walk": "從北角站沿渣華道直行約 300 米"
+    }
+  },
+  {
+    "id": "cardkoi",
+    "name": "CardKoi 卡酷愛玩具",
+    "lat": 22.311774117931968,
+    "lng": 114.22080075529531,
+    "beginnerFriendly": "未體驗",
+    "toilet": "超正",
+    "region": "九龍",
+    "address": "觀塘偉業街179號德隆工業大廈A座6樓",
+    "hours": "https://www.facebook.com/CardKoiToys/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵觀塘站 A2 出口，步行 8 分鐘",
+      "bus": "偉業街站（巴士 16、17）",
+      "walk": "從觀塘站沿偉業街直行約 500 米"
+    }
+  },
+  {
+    "id": "card_knight",
+    "name": "Card Knight",
+    "lat": 22.31221170649305,
+    "lng": 114.22133512204435,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "觀塘鴻圖道45號宏光工業大廈10樓H室",
+    "hours": "https://www.facebook.com/p/Card-Knight-%E5%8D%A1%E7%88%B5%E5%A3%AB-TCG-100091560068776/",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵觀塘站 A2 出口，步行 7 分鐘",
+      "bus": "鴻圖道站（巴士 16、17）",
+      "walk": "從觀塘站沿鴻圖道直行約 400 米"
+    }
+  },
+  {
+    "id": "half_day_idle",
+    "name": "半日閒",
+    "lat": 22.315601311244293,
+    "lng": 114.21957083112748,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "觀塘觀塘道368號波頓科創中心1樓B店鋪",
+    "hours": "https://after5gs.com/",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵觀塘站 A2 出口，步行 5 分鐘",
+      "bus": "觀塘道站（巴士 16、17）",
+      "walk": "從觀塘站沿觀塘道直行約 300 米"
+    }
+  },
+  {
+    "id": "beehive",
+    "name": "Beehive 皇巢",
+    "lat": 22.313191824806577,
+    "lng": 114.22322469364899,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "觀塘時運工業大廈1樓A室",
+    "hours": "https://beehivetcg.com/?srsltid=AfmBOopSpL9rd1ABcMlon0Fo5oZ4itSHscpAq8fKYJ5-JSV1bvfToamr",
+    "facilities": "概率性買到低於市場價錢嘅卡(刃鬼sar120蚊)但普遍啲卡價高於市場價少少.訂貨or買卡好方便",
+    "directions": {
+      "subway": "港鐵觀塘站 A2 出口，步行 6 分鐘",
+      "bus": "時運工業大廈站（巴士 16、17）",
+      "walk": "從觀塘站沿開源道直行約 400 米"
+    }
+  },
+  {
+    "id": "card_legacy",
+    "name": "Card Legacy",
+    "lat": 22.311033732504477,
+    "lng": 114.2237074157835,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "九龍觀塘開源道47號凱源工業大廈1/f C室",
+    "hours": "https://shop.cardlegacy.xyz/?v=ae4171856a75",
+    "facilities": "未體驗",
+    "directions": {
+      "subway": "港鐵觀塘站 A2 出口，步行 5 分鐘",
+      "bus": "開源道站（巴士 16、17）",
+      "walk": "從觀塘站沿開源道直行約 300 米"
+    }
+  },
+   {
+    "id": "MOONROAD",
+    "name": "MOONROAD月之閣卡店",
+    "lat": 22.31057904998019, 
+    "lng": 114.22494473167403,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "觀塘興業街15號中美中心B座3樓304室",
+    "hours": "https://www.facebook.com/moonroadhkltd/?locale=zh_HK",
+    "facilities": "據說好大間好靚。未去過 揾日睇下",
+    "directions": {
+      "subway": "港鐵觀塘站",
+      "bus": "開源道站（巴士 16、17）",
+      "walk": " "
+    }
+  },
+  {
+    "id": "KaBoom",
+    "name": "KaBoom TCG Store",
+    "lat": 22.31318232624808, 
+    "lng": 114.2242415157842,
+    "beginnerFriendly": "一般",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "觀塘巧明街105號好運工業大廈3樓D",
+    "hours": "https://www.facebook.com/moonroadhkltd/?locale=zh_HK",
+    "facilities": "幾大下，懶得去收卡砌deck，直接去呢度拎張deck list 老細幫你執料",
+    "directions": {
+      "subway": "港鐵觀塘站",
+      "bus": "開源道站（巴士 16、17）",
+      "walk": " "
+    }
+  },
+  {
+    "id": "cardland",
+    "name": "Cardland卡之島",
+    "lat": 22.311033896612347,
+    "lng": 114.22402332824977,
+    "beginnerFriendly": "未體驗",
+    "toilet": "未體驗",
+    "region": "九龍",
+    "address": "九龍觀塘開源道55號開聯工業中心A座5樓512室",
+    "hours": "https://cardland.com.hk/",
+    "facilities": " 未體驗",
+    "directions": {
+      "subway": "港鐵觀塘站 A2 出口，步行 5 分鐘",
+      "bus": "開源道站（巴士 16、17）",
+      "walk": "從觀塘站沿開源道直行約 300 米"
+    }
+  }
+]

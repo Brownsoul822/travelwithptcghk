@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>遊香港卡舖(PTCG) - 卡舖詳情</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
+  <style>
+    /* 基本重置樣式 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #2c3e50;
+    }
+
+    .shop-details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .shop-details div {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+
+    .map {
+      width: 100%;
+      height: 300px;
+      background: #eee;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* 響應式設計 */
+    @media (min-width: 768px) {
+      .shop-details div {
+        flex: 1 1 45%;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+
+    @media (max-width: 576px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      body {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <div class="container mx-auto p-4">
+    <div class="flex items-center mb-4">
+      <h1 class="text-3xl font-bold">遊香港卡舖(PTCG) - 卡舖詳情</h1>
+      <a href="me.html">
+        <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3owc205NXluMW9odWNxa25vZWJ1YnZiOWsydGZxdzBzbTBmOHB3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QEqDLveTwhLVIxnJV9/giphy.gif" alt="作者資訊" width="70" >
+      </a>
+    </div>
+    <div id="shop-details" class="bg-white p-6 rounded shadow-md">
+      <h2 id="shop-name" class="text-2xl font-semibold mb-4"></h2>
+      <p><strong>地址:</strong> <span id="shop-address"></span></p>
+      <p><strong>社群平台:</strong> <span id="shop-hours"></span></p>
+      <p><strong>新手友好程度:</strong> <span id="shop-beginner"></span></p>
+      <p><strong>廁所:</strong> <span id="shop-toilet"></span></p>
+      <p><strong>個人感想:</strong> <span id="shop-facilities"></span></p>
+      <p><strong>交通方式:</strong></p>
+      <ul class="list-disc pl-6">
+        <li><strong>地鐵:</strong> <span id="shop-subway"></span></li>
+        <li><strong>巴士:</strong> <span id="shop-bus"></span></li>
+        <li><strong>步行:</strong> <span id="shop-walk"></span></li>
+      </ul>
+      <a href="ptcg_map.html" class="text-blue-500 hover:underline mt-4 inline-block">返回地圖</a>
+    </div>
+  </div>
+  <script>
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    fetch('shops.json')
+      .then(response => response.json())
+      .then(data => {
+        const shopId = getQueryParam('id');
+        const shop = data.find(s => s.id === shopId);
+        if (shop) {
+          document.getElementById('shop-name').textContent = shop.name;
+          document.getElementById('shop-address').textContent = shop.address;
+          document.getElementById('shop-hours').textContent = shop.hours;
+          document.getElementById('shop-beginner').textContent = shop.beginnerFriendly;
+          document.getElementById('shop-toilet').textContent = shop.toilet;
+          document.getElementById('shop-facilities').textContent = shop.facilities;
+          document.getElementById('shop-subway').textContent = shop.directions.subway;
+          document.getElementById('shop-bus').textContent = shop.directions.bus;
+          document.getElementById('shop-walk').textContent = shop.directions.walk;
+        } else {
+          document.getElementById('shop-details').innerHTML = '<p>未找到卡店信息</p>';
+        }
+      });
+  </script>
+</body>
+</html>

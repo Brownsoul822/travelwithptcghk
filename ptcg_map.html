@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>香港 PTCG 卡舖地圖</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #7da879;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #map {
+            flex: 1;
+            min-height: 50vh;
+        }
+
+        .filter-container {
+            padding: 10px;
+            background-color: #e0ffe6;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .filter {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+            .filter select, .filter input[type="checkbox"] {
+                width: auto;
+                height: 20px;
+                margin-right: 8px;
+                cursor: pointer;
+            }
+
+            .filter label {
+                color: #001107;
+                font-weight: 500;
+            }
+
+        #shop-list {
+            max-height: 30vh;
+            overflow-y: auto;
+            background-color: #ffffff;
+            border-top: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .shop-item {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+            .shop-item:hover {
+                background-color: #f0f0f0;
+            }
+
+            .shop-item h3 {
+                margin: 0;
+                font-size: 16px;
+                color: #012242;
+            }
+
+            .shop-item p {
+                margin: 5px 0 0;
+                font-size: 14px;
+                color: #3f3f4b;
+            }
+
+        .recommended {
+            color: #4CAF50;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            margin: 10px 0;
+            color: #010607;
+        }
+
+        @media (max-width: 600px) {
+            #map {
+                min-height: 45vh;
+            }
+
+            #shop-list {
+                max-height: 25vh;
+            }
+
+            .shop-item h3 {
+                font-size: 14px;
+            }
+
+            .shop-item p {
+                font-size: 12px;
+            }
+
+            .filter-container {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;
+            }
+
+            .filter {
+                font-size: 14px;
+            }
+
+                .filter select, .filter input[type="checkbox"] {
+                    height: 18px;
+                }
+
+            h1 {
+                font-size: 16px;
+            }
+        }
+
+        .leaflet-control {
+            font-size: 14px !important;
+        }
+
+        .leaflet-popup-content {
+            font-size: 14px;
+            max-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+  <a href="me.html"><img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3owc205NXluMW9odWNxa25vZWJ1YnZiOWsydGZxdzBzbTBmOHB3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QEqDLveTwhLVIxnJV9/giphy.gif" width="70">
+</a>遊香港卡舖(PTCG)</h1>
+    <div class="filter-container">
+        <div class="filter">
+            <select id="regionFilter">
+                <option value="">所有地區</option>
+                <option value="香港島">香港島</option>
+                <option value="九龍">九龍</option>
+                <option value="新界">新界</option>
+            </select>
+            <label for="regionFilter">地區</label>
+        </div>
+        <div class="filter">
+            <select id="beginnerFriendlyFilter">
+                <option value="">所有新手友好程度</option>
+                <option value="超正">超正</option>
+                <option value="一般">一般</option>
+                <option value="超有錢就正">超有錢就正</option>
+                <option value="未體驗">未體驗</option>
+            </select>
+            <label for="beginnerFriendlyFilter">新手友好程度</label>
+        </div>
+        <div class="filter">
+            <select id="toiletFilter">
+                <option value="">所有廁所</option>
+                <option value="超正">超正</option>
+                <option value="一般">一般</option>
+                <option value="未體驗">未體驗</option>
+            </select>
+            <label for="toiletFilter">廁所</label>
+        </div>
+        <div class="filter">
+            <input type="checkbox" id="tournamentFilter">
+            <label for="tournamentFilter">bababooey</label>
+        </div>
+    </div>
+    <div id="map"></div>
+    <div id="shop-list"></div>
+    <script>
+        // 初始化地圖
+        var map = L.map('map', {
+            zoomControl: true,
+            maxZoom: 18,
+            minZoom: 10
+        }).setView([22.3193, 114.1694], 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+
+
+
+        
+        // 載入卡店資料
+        let shops = [];
+        fetch('shops.json')
+            .then(response => response.json())
+            .then(data => {
+                shops = data;
+                updateMarkersAndList();
+            })
+            .catch(error => {
+                console.error('載入 shops.json 失敗:', error);
+                document.getElementById('shop-list').innerHTML = '<p>無法載入卡店資料，請檢查 shops.json</p>';
+            });
+
+        // 標記和清單管理
+        var markers = L.layerGroup().addTo(map);
+        var shopMarkers = {};
+        function updateMarkersAndList() {
+            markers.clearLayers();
+            const shopList = document.getElementById('shop-list');
+            shopList.innerHTML = '';
+            const regionFilter = document.getElementById('regionFilter').value;
+            const beginnerFriendlyFilter = document.getElementById('beginnerFriendlyFilter').value;
+            const toiletFilter = document.getElementById('toiletFilter').value;
+            const tournamentFilter = document.getElementById('tournamentFilter').checked;
+            const filteredShops = shops.filter(shop => {
+                let show = true;
+                if (regionFilter && shop.region !== regionFilter) show = false;
+                if (beginnerFriendlyFilter && shop.beginnerFriendly != beginnerFriendlyFilter) show = false;
+                if (toiletFilter && shop.toilet !== toiletFilter) show = false;
+                if (tournamentFilter && !shop.tournament) show = false;
+                return show;
+            }).sort((a, b) => {
+                return b.beginnerFriendly - a.beginnerFriendly || (b.tournament ? 1 : 0) - (a.tournament ? 1 : 0);
+            });
+
+            filteredShops.forEach((shop) => {
+                let color = shop.beginnerFriendly >= 4 ? 'green' : shop.beginnerFriendly === 3 ? 'yellow' : 'red';
+                let marker = L.circleMarker([shop.lat, shop.lng], {
+                    color: color,
+                    radius: 8,
+                    fillColor: color,
+                    fillOpacity: 0.8
+                }).addTo(markers)
+                    .bindPopup(`<b>${shop.name}</b><br>新手友好: ${shop.beginnerFriendly}/5<br>廁所: ${shop.toilet}<br>比賽: ${shop.tournament ? '有 (Pokémon TCG GYM)' : '無'}<br><a href="shop_details.html?id=${shop.id}">查看詳情</a>`);
+                shopMarkers[shop.id] = marker;
+
+                const shopItem = document.createElement('div');
+                shopItem.className = 'shop-item';
+                const isRecommended = shop.beginnerFriendly >= 4 && shop.tournament;
+                shopItem.innerHTML = `
+                        <h3>${shop.name}${isRecommended ? '<span class="recommended">推介</span>' : ''}</h3>
+                        <p>新手友好: ${shop.beginnerFriendly} | 廁所: ${shop.toilet} </p>
+                    `;
+                shopItem.addEventListener('click', () => {
+                    window.location.href = `shop_details.html?id=${shop.id}`;
+                });
+                shopList.appendChild(shopItem);
+            });
+        }
+
+        // 篩選功能
+        document.getElementById('regionFilter').addEventListener('change', updateMarkersAndList);
+        document.getElementById('beginnerFriendlyFilter').addEventListener('change', updateMarkersAndList);
+        document.getElementById('toiletFilter').addEventListener('change', updateMarkersAndList);
+        document.getElementById('tournamentFilter').addEventListener('change', updateMarkersAndList);
+
+        // 手機觸控支援
+        map.on('touchstart', function () {
+            map.scrollWheelZoom.enable();
+        });
+    </script>
+</body>
+</html>
